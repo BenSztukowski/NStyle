@@ -4,21 +4,34 @@
     margin-bottom: -180px;
     font-family: fantasy;
     margin-top: -40px;
+    display:flex;
+    justify-content: center;
 }
 
 .logo {
     font-size: larger;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -60px;
 }
 
 .nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
+    width: 100px;
+    height: 100px;
     padding: 5px;
-    border-radius: 5px;
+    border-radius: 50px;
     background-color: gold;
+    display:inline-block;
+    justify-content: space-between;
+    margin-top: -40px;
+    margin-left: 10px;
+    text-align: center;
+    box-shadow: -10px 0px 5px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-nav:hover {
-    background-color: darkcyan;
+.nav:hover {
+    background-color:springgreen;
 }
