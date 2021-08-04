@@ -13,25 +13,37 @@
     text-align: center;
     display: flex;
     justify-content: center;
-    margin-bottom: -60px;
+    /* margin-bottom: -60px; */
 }
 
 .nav {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: large;
     width: 100px;
-    height: 100px;
+    height: 40px;
     padding: 5px;
-    border-radius: 50px;
+    border-radius: 7px;
     background-color: gold;
-    display:inline-block;
-    justify-content: space-between;
-    margin-top: -40px;
+    display: inline-block;
     margin-left: 10px;
     text-align: center;
-    box-shadow: -10px 0px 5px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: -10px 5px 5px 0 rgba(0,0,0,0.1), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
 .nav:hover {
     background-color:springgreen;
+}
+
+#description {
+    text-align: center;
+    font-size: 50px;
+    margin: 0 auto;
+    width: 80%;
+    color: darkslategray;
+}
+
+.counter {
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: steelblue;
 }
